@@ -1,0 +1,4 @@
+- name: playbook wrapper for testing ntpdate
+  hosts: localhost
+  roles:
+  - 'kitchen'
